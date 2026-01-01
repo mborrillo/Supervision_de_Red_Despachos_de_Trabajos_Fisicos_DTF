@@ -1,0 +1,23 @@
+# Diseño del dashboard en Looker Studio
+
+## 1. Performance - Líderes / Colaboradores
+- Objetivo: medir productividad individual y por equipo.
+- Visualizaciones:
+  - Tabla por COLABORADOR con cantidad de DTF, % EN OBJETIVO, DIAS_FINALIZADOS promedio.
+  - Gráfico de barras por líder / colaborador.
+
+## 2. SLA por AOP
+- Objetivo: entender el desempeño por región operativa.
+- Visualizaciones:
+  - Barra apilada EN OBJETIVO vs FUERA OBJETIVO por AOP_RESP.
+  - Filtro por tipo de Operacion y periodo.
+
+## 3. Vista ejecutiva
+- Objetivo: resumen de KPIs clave del periodo.
+- Visualizaciones:
+  - KPIs: % cumplimiento SLA, DTF totales, DTF fuera de objetivo.
+  - Serie temporal de % SLA por mes.
+
+## 4. DTF Gestión Líderes (histórica)
+- Objetivo original: monitorear riesgo de vencimiento en DTF abiertos.
+- Nota: la pérdida de actualización del dataset hace que esta vista sea solo referencial.
