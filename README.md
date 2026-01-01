@@ -56,24 +56,17 @@ En `sql/model_dtf.sql` se definen:
 
 Aqui se crea una vista/tablas modeladas que podrás conectar a tu herramienta de BI, en este caso Looker Studio.
 
-Estado del dashboard
-Páginas documentadas:
+Estado del dashboard. Páginas documentadas:
 
 Performance - Líderes / Colaboradores.
-
 SLA por AOP y otras dimensiones.
-
 Vista ejecutiva (KPIs principales).
 
 La Página DTF Gestion Lideres, se mantuvo como referencia historica, perdio valor al no seguir actualizandose el Tablero, pero sirve para que se observe que cuando se actualizaba el tablero, podia detectar aquellos despachos enviados que estaban "proximos a vencerse", y aquellos que ya se habian vencido, pero no se habian cerrado.
 
 Privacidad y anonimización
 Colaboradores: se enmascaran con nombres de fantasía, para proteger la privaciadad, pero a su vez manteniendo el enfoque en la productividad real del período.
-
-Clientes: se mantiene idCliente y Cliente porque son identificadores internos no trazables a clientes reales, y aportan realismo al análisis.
-
 No se incluye ninguna información sensible de personas físicas.
-
 
 ## Ejemplo de modelo SQL (DuckDB/SQLite)
 
