@@ -8,7 +8,7 @@ Proyecto de analítica operacional sobre despachos de trabajos físicos (DTF) en
 - Analizar la productividad de colaboradores y líderes.
 - Entender el desempeño por región operativa (AOP), tipo de operación y otros atributos (producto, área responsable, etc.).
 
-> Nota: El dataset es una foto histórica; la parte de “gestión en curso” dejó de tener sentido al dejar de actualizarse, por lo que el foco del proyecto está en despachos finalizados y performance histórica.
+> Nota: El dataset es una foto histórica; la sección de “gestión en curso” dejó de tener sentido al dejar de actualizarse, por lo que el foco del proyecto está en despachos finalizados y performance histórica.
 
 ## Arquitectura de datos
 
