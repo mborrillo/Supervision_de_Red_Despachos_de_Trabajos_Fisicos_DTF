@@ -12,12 +12,17 @@
   - Barra apilada EN OBJETIVO vs FUERA OBJETIVO por AOP_RESP.
   - Filtro por tipo de Operacion y periodo.
 
-## 3. Vista ejecutiva
-- Objetivo: resumen de KPIs clave del periodo.
+## Página 3: DTF Gestión - Líderes (⚠️ HISTÓRICA, NO DISPONIBLE)
+- Objetivo original: monitorear riesgo de vencimiento en DTF abiertos (DG < 5 días = EN OBJETIVO).
+- **ESTADO ACTUAL**: No vigente. El dataset no se actualiza desde octubre 2023.
 - Visualizaciones:
-  - KPIs: % cumplimiento SLA, DTF totales, DTF fuera de objetivo.
-  - Serie temporal de % SLA por mes.
+  - "POR VENCER" (0 despachos): Estaría vacío si hubiera actualización.
+  - "VENCIDOS" (53 despachos): Muestra todos los DTF que superan 4 días sin cerrar.
+  - Tablas detalladas por AOP y Colaborador.
 
-## 4. DTF Gestión Líderes (histórica)
+## 4. DTF Gestión Líderes (Performance histórica)
 - Objetivo original: monitorear riesgo de vencimiento en DTF abiertos.
 - Nota: la pérdida de actualización del dataset hace que esta vista sea solo referencial.
+
+# Diseño del dashboard en Looker Studio
+
